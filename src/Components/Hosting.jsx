@@ -4,7 +4,6 @@ import Container from './Common/Container'
 function Hosting() {
     return (
   
-            <div className='bg-[#0D1129] text-white  py-28    '>
       <Container>
                 <div className='grid sm:grid-cols-2 gap-3   '>
                     <div className='text-left'>
@@ -22,7 +21,6 @@ function Hosting() {
                     </div>
                 </div>
                 </Container>
-            </div>
     )
 }
 

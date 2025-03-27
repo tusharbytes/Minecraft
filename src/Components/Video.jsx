@@ -16,7 +16,6 @@ function Video() {
 
     return (
         <>
-            <div className='bg-[#020525] relative py-10'>
                 <Container>
                     <div className='bg-[#020525] text-white sm:flex justify-center gap-6'>
                         <div onClick={handleChange} >
@@ -43,7 +42,6 @@ function Video() {
 
                     </div>
                     : ""}
-            </div>
 
         </>
     )

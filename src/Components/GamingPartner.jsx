@@ -8,7 +8,6 @@ function GamingPartner() {
         <>
 
 
-            <div className='  text-white mx-auto  bg-[#0D1129] py-10 '>
                 <Container>
                     <div className='   p-12 sm:p-28  bg-[#251973]  rounded-lg     '>
                         <div className='   flex justify-center text-3xl  font-serif   font-extrabold'>    <h1>Your Ultimate Gaming Partner</h1>
@@ -37,7 +36,6 @@ function GamingPartner() {
                     </div>
 
                     </Container>
-            </div>
 
 
 

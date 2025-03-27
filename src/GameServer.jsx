@@ -88,14 +88,14 @@ const feature = [
 
 function GameServer() {
     return (
-        <div className='bg-[#020525]'> 
+        
                    <Container>
-        <div className='container text-white bg-[#020525]'>
+        
             
             <div>
-                <h1 className='p-0 text-left text-[30px] font-lakehurst'>Game Server</h1>
+                <h1 className=' text-center text-[30px] font-lakehurst'>Game Server</h1>
 
-                <div className=' grid grid-cols-4 gap-4 p-4'>
+                <div className=' grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4'>
                     {cards?.map((ele) => (
                         <>
                             <div className='text-center ' key={ele.id}>
@@ -109,7 +109,7 @@ function GameServer() {
                 <div className='text-center'>
                     <div>
                 <button className="m-2  bg-blue-600 hover:bg-[#b307e3]  hover:text-white font-semibold rounded-lg text-sm px-5 py-2.5  " type="button">SEE ALL 60+ GAMES                </button></div></div>
-                <h2 className='p-0 text-left text-[30px] font-lakehurst'>OUR features</h2>
+                <h2 className='p-0 text-center text-[30px] font-lakehurst'>OUR features</h2>
                 <div className='grid sm:grid-cols-3 gap-3 p-4 '>
                     {feature?.map((e) => (
                         <>
@@ -129,9 +129,9 @@ function GameServer() {
 
             </div>
             
-        </div>
+       
         </Container>
-        </div>
+       
   
     )
 }

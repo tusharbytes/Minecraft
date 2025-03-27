@@ -49,7 +49,6 @@ function Questions() {
   
     }
     return (
-        <div className='bg-[#0D1129] text-white'>
             <Container>
                 <div className='pt-29.5 pb-32 xl:pt-20 xl:pb-[90px] lg:pt-18 lg:pb-19.5 md:pt-16.5 md:pb-16.5 '>
                     <h2 className='font-lakehurst font-semibold text-3xl'>FREQUENTLY ASKED QUESTIONS</h2>
@@ -71,7 +70,6 @@ function Questions() {
                 </div>
             </Container>
 
-        </div>
     )
 
 }

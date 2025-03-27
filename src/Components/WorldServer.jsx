@@ -3,7 +3,6 @@ import Container from './Common/Container'
 
 function WorldServer() {
     return (
-        <div className='bg-[#020525] mx-auto justify-center text-white py-28 ' >  
         <Container>
             <div className='flex justify-center'>
                 <h1 className='  text-left text-[30px] font-lakehurst tracking-widest '>Worldwide Server Hosting Locations</h1>
@@ -14,7 +13,6 @@ function WorldServer() {
             </div>
             <img className='px-12' src='./images/server.jpg' />
             </Container>
-        </div>
     )
 }
 

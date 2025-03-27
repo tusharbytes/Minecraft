@@ -29,7 +29,7 @@ const data = [{
 function WhyHosting() {
     return (
 
-        <div className='bg-[#0D1129] text-white '>
+    
             <Container>
                 <h2 className='p-0 text-left text-[30px] font-lakehurst py-8'>WHY BISECTHOSTING?</h2>
                 <div className=''>
@@ -46,7 +46,7 @@ function WhyHosting() {
                     ))}
                 </div>
             </Container>
-        </div>
+        
     )
 }
 

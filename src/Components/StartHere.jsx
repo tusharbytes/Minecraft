@@ -3,7 +3,7 @@ import Container from './Common/Container'
 
 function StartHere() {
   return (
-    <div className='bg-[#0D1129]'>
+     
         <Container>
             <div>
                 <div>
@@ -12,7 +12,7 @@ function StartHere() {
             </div>
         </Container>
       
-    </div>
+ 
   )
 }
 
