@@ -11,11 +11,13 @@ import GoGaimig from './Components/GoGaimig';
 import StartHere from './Components/StartHere';
 import SignUp from './Components/SignUp';
 import Footer from './Components/Footer';
+import Question from './Components/Question/Question';
 
 function App() {
   return (
-    <div className="bg-[#020525] text-white min-h-screen">
-      <Navbar />
+    <div className=" ">
+      <Question/>
+      {/* <Navbar />
 
       <main>
         <Main />
@@ -31,7 +33,7 @@ function App() {
         <SignUp />
       </main>
 
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }

@@ -38,8 +38,8 @@ const Navbar = () => {
               <p className="cursor-pointer flex items-center hover:text-[#03DDFF] transition">
                 MINECRAFT <FaSortDown className="ml-1" />
               </p>
-              <div className="absolute left-0 mt-2 bg-[#171B33] shadow-lg rounded-md opacity-0 invisible transition-all duration-300 group-hover:opacity-100 group-hover:visible">
-                <a href="#" className="flex items-center px-4 py-2 hover:text-[#B307E3]"><MdOutlineDesktopWindows /> JAVA</a>
+              <div className="absolute left-0 mt-2 bg-[#171B33] border shadow-lg rounded-md opacity-0 invisible transition-all duration-300 group-hover:opacity-100 group-hover:visible">
+                <a href="#" className="flex items-center px-4 py-2 gap-2 hover:text-[#B307E3]"><MdOutlineDesktopWindows /> JAVA</a>
                 <a href="#" className="flex items-center px-4 py-2 hover:text-[#B307E3]"><GiConsoleController /> BEDROCK</a>
               </div>
             </div>
@@ -49,7 +49,7 @@ const Navbar = () => {
               <p className="cursor-pointer flex items-center hover:text-[#03DDFF] transition">
                 GAME SERVERS <FaSortDown className="ml-1" />
               </p>
-              <ul className="absolute w-64 p-4 bg-[#171B33] shadow-lg rounded-md opacity-0 invisible transition-all duration-300 group-hover:opacity-100 group-hover:visible">
+              <ul className="absolute w-64 p-4 bg-[#171B33] shadow-lg  border rounded-md opacity-0 invisible transition-all duration-300 group-hover:opacity-100 group-hover:visible">
                 {games.map((game, index) => (
                   <li key={index} className="px-4 py-2 hover:text-[#B307E3] cursor-pointer">{game}</li>
                 ))}
@@ -57,11 +57,11 @@ const Navbar = () => {
             </div>
 
             {/* Dropdown: Support */}
-            <div className="relative group">
-              <button className="flex items-center hover:text-[#03DDFF] transition">
+            <div className="relative group ">
+              <button className="flex items-center  hover:text-[#03DDFF] transition">
                 <BiMessageAltError className="mr-2" /> Support
               </button>
-              <ul className="absolute w-48 bg-[#171B33] shadow-lg rounded-md opacity-0 invisible transition-all duration-300 group-hover:opacity-100 group-hover:visible">
+              <ul className="absolute w-48 bg-[#171B33] border shadow-lg rounded-md opacity-0 invisible transition-all duration-300 group-hover:opacity-100 group-hover:visible">
                 {support.map((item, index) => (
                   <li key={index} className="px-4 py-2 hover:text-[#B307E3] cursor-pointer">{item}</li>
                 ))}
@@ -73,7 +73,7 @@ const Navbar = () => {
               <button className="flex items-center hover:text-[#03DDFF] transition">
                 <SlCreditCard className="mr-2" /> Panels
               </button>
-              <ul className="absolute w-64 bg-[#171B33] shadow-lg rounded-md opacity-0 invisible transition-all duration-300 group-hover:opacity-100 group-hover:visible">
+              <ul className="absolute w-64 bg-[#171B33] border shadow-lg rounded-md opacity-0 invisible transition-all duration-300 group-hover:opacity-100 group-hover:visible">
                 {panels.map((panel, index) => (
                   <li key={index} className="px-4 py-2 hover:text-[#03DDFF] cursor-pointer">{panel}</li>
                 ))}
